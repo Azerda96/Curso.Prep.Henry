@@ -80,11 +80,12 @@ function sonIguales(x, y) {
 }
 
   function tienenMismaLongitud(str1, str2) {
-  return str1.length === srt2.length;
-  
+    return str1.length === str2.length;
+
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código
+  
 }
 
 function menosQueNoventa(num) {
@@ -135,10 +136,10 @@ function esPar(num) {
 }
 
 function esImpar(num) {
-  if (num % 2 === 1) {
+  if(num % 2 === 1) {
     return true;
   } else {
-    return flase;
+    return false;
   }
   
   // Devuelve "true" si "num" es impar
@@ -276,12 +277,12 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
   if (letra.length > 1){
-    return "Dato Incorrecto"
+    return "Dato incorrecto"
   }
   if(letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u"){
     return "Es vocal"
   }
-  return "Dato Incorrecto"
+  return "Dato incorrecto"
 }
 
 
